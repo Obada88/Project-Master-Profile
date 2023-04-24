@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,600;0,700;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 68.68%;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+    background-color: hsl(228, 15%, 20%);
+    overflow-x: hidden;
+}
+
+/******** Start Section Navbar ************/
+.navbar-brand{
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.nav-link{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+.active{
+    color: #20c997 !important;
+ 
+}
+.nav-link:hover{
+    color: #20c997;
+
+}
+/******** End Section Navbar ************/
+
+
+/******** Start Section Home ************/
+.box-contetn-home{
+    margin: 5rem;
+}
+.box-contetn-home h5,h4,p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+.box-contetn-home h3{
+    color: #20c997;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.box-contetn-home a{
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #20c997;
+    color: #fff;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+}
+.box-contetn-home a:hover{
+    letter-spacing: 1px;
+}
+
+.icon-fowlls{
+    margin-top: 2.5rem;
+}
+.icon-fowlls i{
+    font-size: 1.5rem;
+    background-color: #20c997;
+    color: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.box-img-home img{
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100%;
+}
+/******** End Section Home ************/
+
+/******** Start Section About ************/
+.box-siklls{
+    margin: 3rem;
+    height: 25rem;
+    border-radius: 5px;
+}
+.box-content-skills{
+    border: 2px solid hsl(228, 15%, 15%);
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: hsl(228, 15%, 15%);
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.box-siklls a{
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #20c997;
+    color: #fff;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+}
+.box-siklls a:hover{
+    letter-spacing: 1px;
+}
+.box-content-skills:hover{
+    animation: Siklls 3s infinite;
+    transform:scale(1.1);
+}
+@keyframes Siklls{
+    0%{
+        box-shadow: 0 0 0 #20c997;
+
+    }
+    100%{
+        box-shadow: 0 25px 25px #20c997;
+    }
+}
+
+.box-content-skills i{
+    color: #fff;
+    font-size: 5rem;
+    margin: 1.5rem;
+    
+}
+/******** End Section About ************/
+
+/******** Start Section Project ************/
+.box-margin-project{
+    margin: 1rem;
+}
+.box-img img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.box-project{
+    position: relative;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+.box-margin-project:hover .box-project{
+    opacity: 1;
+}
+.box-contetn-project{
+    position: absolute;
+    left: 0;
+    bottom: 15rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #000;
+    
+}
+.box-contetn-project h5,h3{
+    color: #fff;
+}
+.box-contetn-project a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #20c997;
+}
+
+/******** End Section Project ************/
+
+/******** End Section Conact ************/
+.form-control{
+    background-color: hsl(228, 15%, 15%) !important;
+    border:  1px solid  hsl(228, 8%, 65%);
+    padding: 1rem;
+    color: hsl(228, 8%, 65%) !important;
+    font-size: 1.2rem;
+    caret-color: #fff;
+}
+
+.btn-message{
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #20c997;
+    color: #fff !important;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+  
+}
+.btn-message:hover{
+    letter-spacing: 1px;
+}
+
+.erro{
+    border: 2px solid #f00;
+}
+.send-message{
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+/******** End Section Conact ************/
+
+/******** End Section Footer ************/
+.icon-footer i{
+    font-size: 1.5rem;
+    background-color: #20c997;
+    color: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transition: 0.5s ease-in-out;
+}
+.icon-footer i:hover{
+    transform: translateY(0.5rem);
+}
+
+.fa-arrow-up{
+    position: fixed;
+    background-color:hsl(228, 15%, 15%);
+    color: #20c997;
+    padding: 1rem;
+    border: 1px solid hsl(228, 15%, 15%);
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+/******** End Section Footer ************/
+
+/******** Responsive ************/
+
+@media(    max-width: 991px){
+    .box-siklls{
+        height: 35rem;
+    }
+    .box-mySiklles {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .pro {
+        margin-top: 100rem;
+    }
+}
+
+
